@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #parent {
+            display: grid;
+            width: 200px;
+            height: 150px;
+            grid-template: 
+            "a1 b1 c1"
+            "a1 d1 c1"
+            "e1 e1 e1";
+            margin: auto;
+            position: absolute;
+            left: 0; right: 0; top: 0; bottom: 0;
+
+
+
+        }
+
+        #a{
+            grid-area: a1;
+            background-color: green;
+        }
+
+        #b{
+            grid-area: b1;
+            background-color: red;
+        }
+        #c{
+            grid-area: c1;
+            background-color: yellow;
+        }
+        #d{
+            grid-area: d1;
+            background-color: blue;
+        }
+        #e{
+            grid-area: e1;
+            background-color: gray;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div id="parent">
+
+        <div id="a">ewsxcu</div>
+        <div id="b"></div>
+        <div id="c"></div>
+        <div id="d"></div>
+        <div id="e"></div>
+    </div>
+
+
+
+
+</body>
+
+</html>
